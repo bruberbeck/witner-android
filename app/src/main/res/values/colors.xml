@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- <color name="colorPrimary">#3F51B5</color> -->
+    <!-- <color name="colorPrimaryDark">#303F9F</color> -->
+    <!-- <color name="colorAccent">#FF4081</color> -->
+
+    <!-- Theme colors -->
+
+    <color name="colorPrimary">#7e57c2</color>
+    <color name="colorPrimaryLight">#b085f5</color>
+    <color name="colorPrimaryDark">#4d2c91</color>
+    <color name="colorSecondary">#00838f</color>
+    <color name="colorSecondaryLight">#4fb3bf</color>
+    <color name="colorSecondaryDark">#005662</color>
+
+    <!-- Misc colors -->
+
+    <color name="white">#ffffff</color>
+    <color name="textBackground">#eeeeee</color>
+    <color name="labelTextColor">#6d6d6d</color>
+    <color name="textColor">#1c1c1c</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="softGrey">#ff5c5c5c</color>
+    <color name="softerGrey">#7c7c7c</color>
+    <color name="evenSofterGrey">#acacac</color>
+
+    <!-- Maps colors -->
+
+    <color name="accuracyCircleStroke">#4d7e57c2</color>
+    <color name="accuracyCircleFill">#3300838f</color>
+
+    <color name="catCircleStroke">#4d1a237e</color>
+    <color name="catCircleFill">#333949ab</color>
+
+    <color name="emergencyCircleStroke">#4dc2185b</color>
+    <color name="emergencyCircleFill">#33c2185b</color>
+
+    <!-- Disabled colors -->
+
+    <color name="colorForegroundDisabledDark">#80ffffff</color>
+    <color name="colorForegroundDisabledLight">#80000000</color>
+
+    <color name="colorForegroundDisabledDarkDim">#80bebebe</color>
+    <color name="colorForegroundDisabledLightDim">#80323232</color>
+
+    <color name="colorPrimaryTextDisabledDark">#4Dffffff</color>
+    <color name="colorPrimaryTextDisabledLight">#39000000</color>
+
+    <color name="colorSecondaryTextDisabledDark">#36ffffff</color>
+    <color name="colorSecondaryTextDisabledLight">#24000000</color>
+
+</resources>

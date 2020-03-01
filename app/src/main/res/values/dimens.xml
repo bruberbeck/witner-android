@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fabPosition_marginBottom">146dp</dimen>
+    <dimen name="fab_tweet_margin_bottom">76dp</dimen>
+    <dimen name="fab_tweet_margin_end">20dp</dimen>
+</resources>

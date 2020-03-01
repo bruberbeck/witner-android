@@ -1,0 +1,58 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:asp="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:key="@string/pref_testing_key"
+        android:title="@string/pref_testing_title"
+        android:summary="@string/pref_testing_summary">
+        <SwitchPreference
+            android:key="@string/pref_testing_is_testing_key"
+            android:title="@string/pref_testing_is_testing_title"
+            android:summary="@string/pref_testing_is_testing_summary"/>
+        <SwitchPreference
+            android:key="@string/pref_testing_is_show_markers_key"
+            android:title="@string/pref_testing_is_show_markers_title"
+            android:summary="@string/pref_testing_is_show_markers_summary"/>
+        <EditTextPreference
+            android:key="@string/pref_testing_radius_key"
+            android:title="@string/pref_testing_radius_title"
+            android:inputType="numberDecimal" />
+        <EditTextPreference
+            android:key="@string/pref_testing_sample_size_key"
+            android:title="@string/pref_testing_sample_size_title"
+            android:inputType="number" />
+        <EditTextPreference
+            android:key="@string/pref_testing_test_count_key"
+            android:title="@string/pref_testing_test_count_title"
+            android:summary="@string/pref_testing_test_count_summary"
+            android:inputType="number"/>
+        <Preference
+            android:key="@string/pref_testing_test_key"
+            android:title="@string/pref_testing_drop_test_locations_title"
+            android:summary="@string/pref_testing_test_summary"/>
+        <Preference
+            android:key="@string/pref_testing_clear_test_key"
+            android:title="@string/pref_testing_clear_test_title"
+            android:summary="@string/pref_testing_clear_test_summary" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/pref_notifications_key"
+        android:title="@string/pref_notifications_title">
+        <EditTextPreference
+            android:key="@string/pref_notification_radius_key"
+            android:title="@string/pref_notification_radius_title"
+            android:inputType="numberDecimal" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/pref_account_operations_key"
+        android:title="@string/pref_account_operations_title">
+        <Preference
+            android:key="@string/pref_account_sign_in_out_key" />
+        <Preference
+            android:key="@string/pref_account_delete_key"
+            android:title="@string/pref_account_delete_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

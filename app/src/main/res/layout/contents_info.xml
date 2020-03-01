@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/tweet_id_title"
+        android:labelFor="@id/tweet_id" />
+    <TextView
+        android:id="@+id/tweet_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/tweet_hashtags_title"
+        android:labelFor="@id/tweet_hashtags" />
+    <TextView
+        android:id="@+id/tweet_hashtags"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/tweet_user_name_title"
+        android:labelFor="@id/tweet_user_name" />
+    <TextView
+        android:id="@+id/tweet_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/tweet_date_title"
+        android:labelFor="@id/tweet_date" />
+    <TextView
+        android:id="@+id/tweet_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/tweet_text_title"
+        android:labelFor="@id/tweet_text" />
+    <TextView
+        android:id="@+id/tweet_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/geoparsed_title"
+        android:labelFor="@id/geoparsed" />
+    <TextView
+        android:id="@+id/geoparsed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

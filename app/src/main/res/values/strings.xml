@@ -1,0 +1,86 @@
+<!DOCTYPE resources [<!ENTITY appname "witner">]>
+<resources>
+
+    <string name="app_name">&appname;</string>
+    <string name="title_activity_main">&appname;</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="location_permission_rationale_title">Request Permission</string>
+    <string name="current_location_null_error">I don\'t have your location yet</string>
+    <string name="no_user_signed_in_explanation">You need to sign in for receiving location updates</string>
+    <string name="location_permission_denied_explanation">Location permission is needed for receiving location updates</string>
+    <string name="location_permission_needed_for_testing_explanation">I need location permission to drop test locations</string>
+    <string name="gps_is_off_explanation">Gps is needed for receiving location updates</string>
+    <string name="settings">Settings</string>
+    <string name="gps_off">Your GPS seems off</string>
+    <string name="ok">OK</string>
+
+    <!-- Sign in -->
+    <string name="unknown_sign_in_response">Unknown response from AuthUI sign-in</string>
+    <string name="sign_in_cancelled">Sign in cancelled</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="unknown_error">An unknown error occurred</string>
+    <string name="tweet_id_title">Id:</string>
+    <string name="tweet_hashtags_title">Hashtags:</string>
+    <string name="tweet_user_name_title">User Name:</string>
+    <string name="tweet_date_title">Tweet Date:</string>
+    <string name="tweet_text_title">Tweet Text:</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="log_out">Log out</string>
+    <string name="sign_in">Sign in</string>
+    <string name="delete_account">Delete account</string>
+    <string name="sign_in_message">Welcome to WITNER (tWITer eveNt trackER).\nA sign in is required if you would like to receive emergency notifications.</string>
+    <string name="not_now">Not now</string>
+    <string name="sign_in_declined_message">You can always sign in using the \"home\" tab.</string>
+    <string name="sign_in_declined_title">Sign in canceled</string>
+
+    <!-- Firebase Auth -->
+    <!-- Twitter consumer tweetId and secret -->
+    <string name="twitter_consumer_key" translatable="false">fqdZtqPg0hn1z9jsEWdac7db8</string>
+    <string name="twitter_consumer_secret" translatable="false">R75w2iInANaWbfJe3zm6sVrnW6LOaeyv6TXEmgj3P3yFAUlnVO</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="no_error">Failed to fetch an error.</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Settings for Notifications Preferences -->
+
+    <string name="pref_notifications_key">pref_notification_key</string>
+    <string name="pref_notifications_title">Notifications</string>
+    <string name="pref_notification_radius_key">pref_notification_radius_key</string>
+    <string name="pref_notification_radius_title">Notification radius</string>
+    <string name="pref_notification_radius_summary">The maximum radius for receiving notification events</string>
+    <string name="pref_account_operations_title">Account Operations</string>
+    <string name="pref_account_sign_in_out_key">pref_account_sign_out_key</string>
+    <string name="pref_account_delete_key">pref_account_delete_key</string>
+    <string name="pref_account_operations_key">pref_key_account_operations_key</string>
+    <string name="pref_account_sign_out_title">Sign out</string>
+    <string name="pref_account_delete_title">Delete account</string>
+    <string name="pref_account_sign_in_title">Sign in</string>
+    <string name="pref_testing_key">pref_testing_key</string>
+    <string name="pref_testing_title">Testing</string>
+    <string name="pref_testing_radius_key">pref_testing_radius_key</string>
+    <string name="pref_testing_radius_title">Testing radius</string>
+    <string name="pref_testing_sample_size_key">pref_testing_sample_size_key</string>
+    <string name="pref_testing_sample_size_title">Sample size</string>
+    <string name="pref_testing_test_key">pref_testing_test_key</string>
+    <string name="pref_testing_is_testing_key">pref_testing_is_testing_key</string>
+    <string name="pref_testing_is_testing_title">Testing</string>
+    <string name="pref_testing_clear_test_key">pref_testing_clear_test_key</string>
+    <string name="pref_testing_drop_test_locations_title">Drop Test Locations</string>
+    <string name="pref_testing_clear_test_title">Clear test</string>
+    <string name="pref_testing_clear_test_summary">Clears all test data from the database</string>
+    <string name="pref_testing_test_count_key">pref_testing_test_count_key</string>
+    <string name="pref_testing_test_count_title">Test count</string>
+    <string name="pref_testing_test_count_summary">The number of repeats the geo query working on the main activity should be run</string>
+    <string name="pref_testing_test_summary">Results in the dropping of \"Sample size\" number test witneets into the database to be picked from the main activity.</string>
+    <string name="pref_testing_is_testing_summary">Switches the listening of artificially generated \"testweets\" values instead of the \"witneets\" from the main activity. This switch is required to be true to print test benchmark times to the \"logi\" information stream.</string>
+    <string name="pref_testing_is_show_markers_key">pref_testing_is_show_markers_key</string>
+    <string name="pref_testing_is_show_markers_title">Show markers</string>
+    <string name="pref_testing_is_show_markers_summary">Shows or hides test markers on the main activity. Showing markers will hinder the performance and will result in significant deviation from the actual query performance</string>
+    <string name="pref_testing_summary">The testing will start once you switch to test mode and return to the main activity. You can monitor the results in the \"logcat\".</string>
+    <string name="geoparsed_title">Geoparsed:</string>
+</resources>
